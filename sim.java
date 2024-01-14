@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.FileReader;
 public class sim {
 	public static void main(String args[]){
-		System.out.println("Adding new line hear");
+		System.out.println("This is corrected line");
 		if (args[0].equals("smith")){
 			smith_predictor(args, Integer.parseInt(args[1]));
 		}
